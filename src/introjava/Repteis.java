@@ -1,7 +1,7 @@
 package introjava;
 
 
-public class Repteis {
+public class Repteis extends Animais {
     String TipoEscamas = null;
     int ComprimentoCauda;
     

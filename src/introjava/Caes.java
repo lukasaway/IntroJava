@@ -1,7 +1,7 @@
 package introjava;
 
 
-public class Caes {
+public class Caes extends Mamiferos {
     public int Latir (){
         return 1;
     }

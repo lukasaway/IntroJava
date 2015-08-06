@@ -1,7 +1,7 @@
 package introjava;
 
 
-public class Mamiferos {
+public class Mamiferos extends Animais {
     String CorDosPelos = null;
     int ComprimentoPelos;
     
