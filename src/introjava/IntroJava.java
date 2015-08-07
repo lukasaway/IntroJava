@@ -146,6 +146,34 @@ public class IntroJava {
                 if(b1 | b2) System.out.println("b1 | b2 is true");
                 if(b1 ^ b2) System.out.println("b1 ^ b2 is true");
                 break;
+            
+            case '9':
+                
+                int a5, b5, c5 = 0;
+                
+                a5 = 2;
+                b5 = 3;
+                
+                if(a5 < b5) System.out.println("a is less than b");
+                
+                if(a5 == b5) System.out.println("you won't see this");
+                System.out.println();        
+                
+                System.out.println("c5 contains -1");
+                if(c5 >= 0) System.out.println("c5 is non-negative");
+                if(c5 < 0) System.out.println("c5 is negative");
+                
+                System.out.println();
+                
+                c5 = b5 - a5;
+                System.out.println("c5 contains 1");
+                if(c5>= 0) System.out.println("c5 is non-negative");
+                if(c5 < 0) System.out.println("c5 os negative");
+                
+                
+                break;          
+                
+                
                 
             default:
                  System.out.println("Selection not found.");
